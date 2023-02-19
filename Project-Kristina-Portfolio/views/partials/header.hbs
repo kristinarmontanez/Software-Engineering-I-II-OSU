@@ -1,0 +1,17 @@
+
+<!-- ||||||||||||||||||||||||||||||||||||| APP HEADER ||||||||||||||||||||||||||||||||||||||||||||||-->
+
+
+
+
+
+<!--Provide "Active" options for CSS styling to distinguish which page user is on.--> 
+  
+ <header class="topnav_body">
+    <nav>
+        <a {{#if indexActive}} class="topnav_active"{{else}}class="topnav"{{/if}} href="/Contact">Contact</a>
+        <a {{#if AboutActive}} class="topnav_active"{{else}}class="topnav"{{/if}} href="/About">About</a>
+        <a {{#if indexActive}} class="topnav_active"{{else}}class="topnav"{{/if}} href="/">Message</a>
+        <span class="pen-pal-title">Secret Pen Pal</span>  
+ </nav>
+ </header>

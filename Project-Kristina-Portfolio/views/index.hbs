@@ -1,0 +1,64 @@
+<!-- ||||||||||||||||||||||||||||||||||||||| INDEX PAGE ||||||||||||||||||||||||||||||||||||||||||-->
+
+
+<!-- Scripts for buttons, encryption service, and creating message board.-->
+<script src="../js/script.js"defer></script>
+<script src="../js/SavedMessages.js"defer></script>
+
+  
+
+
+
+<div class="centerstuff" style="text-align:center">
+  <h2>Type a message below:</h2>
+</div>
+<div class="footer">
+  <h5>Please keep your message short</h5>
+  <h5>(100 characters or less)</h5>
+</div>
+  
+
+
+
+          <div class="pill-nav"style="text-align:center; 
+          margin-right: 20%; margin-left: 20%;">
+  <form id="post-form">
+          <div class="form-text">
+          <input type="text" name="to-whom" id="to-whom" 
+          placeholder="Type your Subject here...">
+          </div>
+          <div style="margin-top: 20px"></div>
+          <textarea id="myText" name="subject" placeholder="Type your secret message here..." 
+          style="height:400px"></textarea>
+          <input id="save_to_board"type="submit" value="Save to Board">
+  </form>
+  
+  
+  
+  <!-- Additional options to save/send message.-->
+    <input id="emailToFriend"type="submit" value="Email" onclick="emailToFriend()">
+    <input id="encrypt"type="submit" value="Make Secret" onclick="encryptFunct()">
+    <input id="decrypt"type="submit" value="Reveal Secret" onclick="decryptFunct()">
+    <button id="text-file-button" class="pill-nav" type="button" 
+    onclick="saveDynamicDataToFile()">Save to Text File</button>
+    <button id="reset_button" class="pill-nav" onclick="myFunction()">Reset</button>
+</div>
+
+<span id="popuptext" style="display:none">Message saved to your Board!</span>
+
+    <form id="update-form"style="align-self: center"class="hidden">
+    <input type="number" name="id" id="update-messageID" class="hidden">
+    </form>
+
+<div class="container" id="all-table"></div>
+
+
+<!-- Informative links.-->
+<div class="centerstuff" id="smallbackground" style="text-align:center; margin-top:100px">
+      <h4>Want to learn more about how to send your secret message to other users? &#8594   
+      <a href="/About"><img src="../img/lock-logo-pink.png" 
+        width="20px" height="30px" alt="secret-board-pic"></a></h4>
+  <h4>Question or Concerns? Something isn't working? Contact us! &#8594   
+  <a href="/Contact"><img src="../img/key-logo.png" 
+        width="40px" height="25px" alt="secret-board-pic"></a></h4>
+</div>

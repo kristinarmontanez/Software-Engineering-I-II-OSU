@@ -1,0 +1,465 @@
+/*|||||||||||||||||||||||||||||||||| CSS STYLE SHEET |||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+/*-------------------------------------GENERAL BODY--------------------------------------------*/
+    
+        
+       body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+       	background-color: #060307; 
+         background-image:url(../img/purple-rain.jpg);
+         background-repeat:no-repeat;
+         background-size:cover;
+        text-decoration-color:rgb(164, 176, 240);
+        text-shadow:#060d69}
+        .hidden 
+        {display: none;}
+
+
+
+
+
+/*-----------------------------------TOP HORIZONTAL MENU-------------------------------------*/
+      
+
+	.topnav_body {
+          overflow: hidden;
+          background-color: rgb(155, 178, 241);
+          background-image: linear-gradient(to right, #09146abf, #000030bf, #02051d);
+          background-size: cover;
+          font-family: "Audiowide";}
+
+
+
+     	.topnav_body a {
+        float: right;
+        color: rgb(203, 3, 203);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;}
+
+
+      	.topnav {
+	float: right;
+	color: rgb(203, 3, 203);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;}
+
+
+
+      .topnav_active {
+        float: right;
+        text-decoration:underline;
+        color: rgb(203, 3, 203);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          }
+
+
+
+      .topnav:hover {
+          background-color: rgb(203, 3, 203);
+          color: rgb(34, 63, 160);
+          text-decoration: underline;
+          box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+                      0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+                      0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+                      0 0.25rem rgb(6, 7, 40) inset;
+                      }
+
+      .topnav_active:hover {
+        background-color: rgb(203, 3, 203);
+        color: rgb(34, 63, 160);
+        text-decoration: underline;
+        box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+                    0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+                    0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+                    0 0.25rem rgb(6, 7, 40) inset;
+                    }
+
+
+
+
+
+      .pen-pal-title {
+        margin-left:10%; 
+        Color:rgb(203, 3, 203); 
+        padding-top:0%; 
+        padding-bottom:0%;
+        font-style:italic;
+        font-size:40px
+        }
+
+
+      .pill-nav a {
+        text-align: center;
+        float: left;
+        width: 50%;
+        background-color: #060d69;
+        color: rgb(222, 221, 253);
+        font-size: small;
+        padding: 12px 20px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-image: linear-gradient(-180deg, #060d69 0%, #060d69 100%);
+        box-shadow: 0 1rem 1.25rem 0 rgba(64, 42, 124, 0.5),
+                                0 -0.25rem 1.5rem rgb(3, 4, 14) inset,
+                                0 0.75rem 0.5rem rgb(249, 249, 249) inset,
+                                0 0.25rem rgb(6, 7, 40) inset;
+                                }
+
+          
+
+    .pill-nav a:hover {
+      background-color: rgb(203, 3, 203);
+      color: rgb(34, 63, 160);
+      text-decoration: underline;
+      box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+                  0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+                  0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+                  0 0.25rem rgb(6, 7, 40) inset;
+                  }
+
+
+	.footer {
+	  text-align:center; 
+	  margin-right: 20%;
+	  margin-left: 20%; 
+	  color:rgb(132, 154, 220);}
+
+
+
+
+
+
+
+
+/*-----------------------------------CSS FOR BOARD TABLES---------------------------------*/
+
+	th {
+	  font-family: "Audiowide";
+	  opacity:1;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  font-size:large;
+	  background-color: rgb(203, 3, 203);
+	      color: rgb(34, 63, 160);
+	      box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+			  0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+			  0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+			  0 0.25rem rgb(6, 7, 40) inset;
+			  }
+
+	td {
+	  padding: 5px;
+	  font-size:medium;
+	  opacity:1;}
+
+
+	table 
+	{   
+	  float: center;
+	  margin-top: 5px;
+	  margin-left: 20px;
+	  margin-right: auto;
+	  margin-left: auto;
+	  padding-top: 50px;
+	  padding-bottom:50px;
+	  padding-left:5px;
+	  padding-right:5px; }
+                            
+
+
+
+
+/*--------------------------STYLE SHEET FOR GENERAL BODY LAYOUT---------------------------*/
+
+
+    a:link {
+	color: rgb(203, 3, 203);
+	background-color: transparent;
+	text-decoration: none;
+	}
+
+      .row:after {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          content: "";
+          display: table;
+          clear: both;
+          box-sizing:border-box;
+          }
+
+      .big_letters {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 30px;
+          color: rgb(203, 3, 203);
+          text-shadow: 0px 0px 0px, 0 0 25px rgb(2, 7, 78), 0 0 5px #041369;
+          box-sizing:border-box;
+          font-family: "Audiowide";
+          }
+
+      .centerstuff {
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgb(203, 3, 203);
+          text-align:center; 
+          margin-left: 25%;
+          margin-right: 25%;
+          box-sizing:border-box;
+          text-shadow: 0px 0px 0px, 0 0 15px rgb(1, 4, 44), 0 0 5px rgb(1, 5, 68);
+          font-family: "Audiowide";
+          }
+
+
+          .about_list {
+            color: rgb(203, 3, 203);
+            font-family: "Audiowide";
+            text-shadow: 0px 0px 0px, 0 0 15px rgb(1, 4, 44), 0 0 5px rgb(1, 5, 68);
+
+            
+            }
+
+      #modal-backdrop {
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgb(222, 221, 253);
+          text-align:center; 
+          margin-left: 25%;
+          margin-right: 25%;
+          box-sizing:border-box;
+          text-shadow: 0px 0px 0px, 0 0 2px rgb(1, 4, 44), 0 0 5px rgb(1, 5, 68);
+          font-family: "Audiowide";
+          }
+         
+
+/*---------------------------------------GENERAL BUTTONS-----------------------------------------------*/
+
+      button {
+          font-family: "Audiowide";
+          text-align: center;
+          padding: 14px 16px;
+          font-size: 17px;
+          background-color: #060d69;
+          color: rgb(203, 3, 203);
+          border: none;
+          /*padding: 12px 20px;*/
+          box-sizing: border-box;
+          background-image: linear-gradient(-180deg, #060d69 0%, #060d69 100%);
+          box-shadow: 0 1rem 1.25rem 0 rgba(64, 42, 124, 0.5),
+                      0 -0.25rem 1.5rem rgb(3, 4, 14) inset,
+                      0 0.75rem 0.5rem rgb(249, 249, 249) inset,
+                      0 0.25rem rgb(6, 7, 40) inset;
+                      }
+
+      button:hover {
+        background-color: rgb(203, 3, 203);
+        color: rgb(34, 63, 160);
+        text-decoration: underline;
+        box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+                    0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+                    0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+                    0 0.25rem rgb(6, 7, 40) inset;
+                    }
+       
+
+      .content_image {
+          display: block;
+          box-shadow: 0 0 15px 10px #141414;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 50%;
+          box-sizing:border-box;
+          border-radius: 10px;
+          }
+
+
+
+
+/*---------------------------------------CONTACT FORM CONTAINER------------------------------------*/
+
+	  .form_text {
+	    font-family: "Audiowide";
+	    color: rgb(203, 3, 203);
+	    align-self:auto;}
+
+
+
+
+/*---------------------------------------SUBMIT BUTTONS-----------------------------------------*/
+
+      input[type=submit] {
+          border: none;
+          text-align: center;
+          padding: 14px 16px;
+          font-size: 17px;
+          background-color: #060d69;
+          color: rgb(203, 3, 203);
+          font-family: "Audiowide";
+          opacity: 1;
+          border-radius: 4px;
+          cursor: pointer;
+          box-sizing: border-box;
+          background-image: linear-gradient(-180deg, #060d69 0%, #060d69 100%);
+          box-shadow: 0 1rem 1.25rem 0 rgba(64, 42, 124, 0.5),
+          0 -0.25rem 1.5rem rgb(3, 4, 14) inset,
+          0 0.75rem 0.5rem rgb(249, 249, 249) inset,
+          0 0.25rem rgb(6, 7, 40) inset;
+          }
+
+
+      input[type=submit]:hover {
+        background-color: rgb(203, 3, 203);
+          color: rgb(34, 63, 160);
+          text-decoration: underline;
+          box-shadow: 0 1rem 1.25rem 0 rgba(38, 15, 99, 0.742),
+                      0 -0.25rem 1.5rem rgb(10, 14, 59) inset,
+                      0 0.75rem 0.5rem rgb(109, 93, 167) inset,
+                      0 0.25rem rgb(6, 7, 40) inset;
+                      }
+          
+
+
+
+/*__________________________________HOVER MESSAGES_________________________________*/
+
+	#tooltip {
+	  position: relative;
+	  display: inline-block;
+	}
+
+	#tooltip #tooltiptext {
+	  visibility: hidden;
+	  width: 120px;
+	  background-color: #4554c6;
+	  color: #fff;
+	  font-family: "Audiowide";
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px 0;
+	  position: absolute;
+	  z-index: 1;
+	  bottom: 100%;
+	  left: 50%;
+	  margin-left: -60px;
+	  opacity: 0;
+	  transition: opacity 1s;
+	}
+
+
+
+
+	#tooltip:hover #tooltiptext {
+	  visibility: visible;
+	  opacity: 1;
+	}
+
+
+
+
+
+
+
+
+/*-----------------------------MESSAGE BOXES-----------------------------*/
+
+
+        select, textarea {
+        border: none;
+        font-size:150%;
+        text-decoration-color: #060404;
+        background-color:#4554c6;
+        opacity: 0.90;
+        display: block;
+        box-shadow: 0 0 15px 10px #141414;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 50%;
+        box-sizing:border-box;
+        border-radius: 10px
+      }
+
+      input[type=text],input[type=password] {
+        border: none;
+        font-size:125%;
+        color: #040871;
+        background-color:#d7daf0;
+        opacity: 0.90;
+        display: block;
+        box-shadow: 0 0 15px 10px #141414;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 50%;
+        box-sizing:border-box;
+        border-radius: 10px
+      }
+
+
+
+      .board {
+        border: none;
+        color: #fae8e8;
+        background-color:#2332a4;
+        opacity: 0.90;
+        display: block;
+        box-shadow: 0 0 15px 10px #141414;
+        height: auto;
+        align-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 70%;
+        box-sizing:border-box;
+        border-radius: 10px
+      }
+
+      #background {
+        border: none;
+        padding:10%;
+        background-color:#2332a4;
+        opacity: 0.90;
+        display: block;
+        box-shadow: 0 0 15px 10px #141414;
+        height: auto;
+        align-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 70%;
+        box-sizing:border-box;
+        border-radius: 10px
+      }
+
+
+      #smallbackground {
+        border: none;
+        background-color:#2332a4;
+        opacity: 0.90;
+        display: block;
+        box-shadow: 0 0 15px 10px #141414;
+        height: auto;
+        align-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding-top:5%;
+        padding-bottom:5%;
+        box-sizing:border-box;
+        border-radius: 10px
+      }
+
+
+

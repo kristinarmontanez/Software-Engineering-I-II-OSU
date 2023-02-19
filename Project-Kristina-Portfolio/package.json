@@ -1,0 +1,48 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "express-session": "^1.17.2",
+    "file-saver": "^2.0.5",
+    "handlebars": "^4.7.7",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "mariadb": "^2.5.5",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.1.0",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "npm": "^8.2.0",
+    "onclick": "^0.1.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.4",
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+
